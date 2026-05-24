@@ -52,6 +52,12 @@ body {
     padding: 40px 20px;
     overflow-x: hidden;
     position: relative;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 /* ==========================================================================
@@ -594,9 +600,24 @@ body {
 .qi-complete .qi-title { color: var(--text-secondary); }
 .qi-cancelled .qi-title, .qi-error .qi-title { color: var(--text-muted); }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .main-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 20px 15px;
+    }
+    .app-container {
+        gap: 20px;
+    }
+    .header__logo {
+        font-size: 1.8rem;
+    }
+    .col-left, .col-right {
+        gap: 20px;
     }
 }
 
@@ -863,6 +884,10 @@ body {
 
 .format-tab {
     flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
     background: transparent;
     border: none;
     color: var(--text-secondary);
