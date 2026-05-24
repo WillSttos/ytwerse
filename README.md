@@ -17,6 +17,14 @@
     <a href="#-visão-geral">Português</a> • 
     <a href="#-overview">English</a>
   </p>
+
+  <br>
+
+  <div>
+    <img src="assets/preview-01.png" alt="Preview 1" width="32%">
+    <img src="assets/preview-02.png" alt="Preview 2" width="32%">
+    <img src="assets/preview-03.png" alt="Preview 3" width="32%">
+  </div>
 </div>
 
 ---
