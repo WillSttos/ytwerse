@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+dist/*
+!dist/YTWERSE.exe
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.env
+.venv
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# App specific
+Videos/
+MP3/
+Playlists/
+bin/
+*.log
